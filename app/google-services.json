@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "415775827699",
+    "project_id": "mealplannerai-54857",
+    "storage_bucket": "mealplannerai-54857.appspot.com"
+
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415775827699:android:1ea5ef110b572f917a7986",
+        "android_client_info": {
+          "package_name": "com.ShreyaZeba.meal_planner_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IXYS8KlFVTBVnddM2wNevdAvT9SPerY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
