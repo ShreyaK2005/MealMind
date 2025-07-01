@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 gradle-wrapper.jar
 /.gradle
 /captures/
@@ -32,3 +33,38 @@ build/
 .idea/
 .vscode/
 *.iml
+=======
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output-metadata.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+>>>>>>> 2d2aa1d64ee0382920a4720675cd8075a57a7421
