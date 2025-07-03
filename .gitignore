@@ -1,0 +1,65 @@
+# Gradle and build output
+.gradle/
+build/
+.cxx/
+.externalNativeBuild/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android Studio and IntelliJ
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# APKs and profiling
+*.apk
+*.hprof
+output-metadata.json
+
+# Keystore and secrets
+local.properties
+key.properties
+*.keystore
+*.jks
+google-services.json
+
+# Log/Temp/System
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
+
+# Other tools
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Obfuscation/Symbols
+app.*.symbols
+app.*.map.json
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Captures
+captures/
+
