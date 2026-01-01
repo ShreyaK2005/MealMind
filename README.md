@@ -1,16 +1,21 @@
 # meal_planner_ai
 
-A new Flutter project.
+A new Flutter project, i.e MealMind.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Project Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend**: Android application (Kotlin, Gradle)
+- **Backend**: Python-based AI meal recommendation system
+- **Database**: Firebase Firestore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The frontend collects user inputs, while the backend processes
+dietary logic and generates personalized meal plans.
+## Repository Structure
+- `/app` → Android frontend
+- `/Backend` → AI & ML logic
+
+
