@@ -1,4 +1,4 @@
-# MealMind 🍽️🤍
+# MealMind - An AI-based app for effective and inclusive meal planning
 
 MealMind is an AI-based meal planning system designed to generate personalized meal
 recommendations while being mindful.
@@ -41,6 +41,7 @@ Frontend files (Python)
 ├── signup_page (Page for new users to signup)
 ├── user_info_page (User enters information like height, weight, nationality, health goal, etc and preferences like veg/non-veg/vegan.
 ├── meal_plan_screen (Final meal plan displayed)
+
 
 
 
