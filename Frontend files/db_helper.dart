@@ -2,8 +2,8 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
 /// Local SQLite helper for MealMind user data persistence.
-/// All numeric fields (age, weight, height) are stored as TEXT
-/// to preserve user-entered formatting (e.g. units, decimals).
+/// Numeric fields are stored as TEXT to simplify
+/// form serialization and preserve user-entered precision.
 class DBHelper {
   static Database? _database;
 
@@ -64,7 +64,7 @@ class DBHelper {
   static Future<void> saveUser(String email, String password) async {
     try {
       final db = await database;
-      await db.insert(
+      await db.update(
         'users',
         {'email': email, 'appPassword': password},
         conflictAlgorithm: ConflictAlgorithm.replace,
