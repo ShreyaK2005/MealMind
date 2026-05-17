@@ -4,7 +4,7 @@ MealMind is an AI-based meal planning system designed to generate personalized m
 recommendations while being mindful.
 
 The project focuses on **healthy relationships with food**, offering flexible meal
-suggestions catering to user's health goals and specifications like nationality, health conditions, allergies, etc.
+suggestions catering to user's health goals and specifications like nationality, health conditions, allergies, etc. It prvides 3 options for each meal of the day, i.e. Breakfast, Lunch, Snacks and Dinner and randomized selection of options is supported, hence eliminating the need for user to consult professionals or research nutrient composition in meals.
 
 ---
 
